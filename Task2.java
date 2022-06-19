@@ -4,10 +4,10 @@ public class Task2 {
     public static void main(String[] args) {
         Scanner iScanner=new Scanner(System.in);
         System.out.println("Введите число: ");
-        int x= iScanner.nextInt();
+        double x= iScanner.nextInt();
         iScanner.close();
 
-        int sum=0;
+        double sum=0;
         
         while (x>0){
             sum=sum+x%10;
