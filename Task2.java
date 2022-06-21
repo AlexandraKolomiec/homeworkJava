@@ -15,7 +15,7 @@ public class Task2 {
             
         }
         System.out.println(sum);
-
+//эта часть у меня не получилась, не могу разобраться в чем ошибка. в любом случае выдает что число делится на сумму
         if (x%sum == 0){
             System.out.println(x%sum);
             System.out.println("число делится на сумму его цифр");
