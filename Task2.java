@@ -6,16 +6,17 @@ public class Task2 {
         System.out.println("Введите число: ");
         int x= iScanner.nextInt();
         iScanner.close();
-
+        
+        int bufNum = x;
         int sum=0;
         
-        while (x>0){
-            sum=sum+x%10;
-            x/=10;
+        while (bufNum >0){
+            sum=sum+bufNum %10;
+            bufNum /=10;
             
         }
         System.out.println(sum);
-//эта часть у меня не получилась, не могу разобраться в чем ошибка. в любом случае выдает что число делится на сумму
+
         if (x%sum == 0){
             System.out.println(x%sum);
             System.out.println("число делится на сумму его цифр");
